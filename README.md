@@ -1,5 +1,5 @@
 # py_vs_rust_primes
-This repo is an initial exploration of rust for me. I read this [article](https://cantortrading.fi/rust_decimal_str/) on HackerNews, and it caught my interest. As a mainly data sciency person, KI don't have too much experience with stuff like rust, systems programming, and tail calls, but that article was enough for me to see if I could speed up some of my FastAPI apps by implementing them in rust.
+This repo is an initial exploration of rust for me. I read this [article](https://cantortrading.fi/rust_decimal_str/) on HackerNews, and it caught my interest. As a mainly data science focused person, I don't have too much experience with stuff like rust, systems programming, and tail calls, but that article was enough for me to see if I could speed up some of my FastAPI apps by implementing them in rust.
 
 ## Instructions
 I will be using the [apache benchmark tool](https://httpd.apache.org/docs/2.4/programs/ab.html) to compare these two API's
