@@ -14,6 +14,9 @@ source env/bin/activate
 pip install -r requirements.txt
 python main.py
 ```
-The FastAPI app has one endpoint: /primes/{n}, where n is an integer.
+The FastAPI app has one endpoint: GET /primes/{n}, where n is an integer.
+
 If n is less than 2, it will return 'Invalid Number'. Otherwise, it will return a list of primes up to n
+
+ex: `curl http://0.0.0.0:8000/primes/10  = {"primes":[1,2,3,5,7]}`
 
