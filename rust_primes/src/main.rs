@@ -1,5 +1,7 @@
-use warp::Filter;
+use warp::{Filter};
 mod primes;
+
+
 #[tokio::main]
 async fn main() {
     let hello = warp::path!("primes" / i32)
@@ -8,6 +10,6 @@ async fn main() {
             warp::reply::json(&l)
         });
     warp::serve(hello)
-        .run(([127,0,0,1],3030))
+        .run(([0,0,0,0],3030))
         .await;
 }
