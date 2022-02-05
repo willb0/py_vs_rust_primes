@@ -1,0 +1,14 @@
+services:
+  rust_primes:
+    build: 
+      context: ./rust_primes
+      dockerfile: Dockerfile
+    ports:
+      - "3030:3030"
+  py_primes:
+    build:
+      context: ./fastapi_primes
+      dockerfile: Dockerfile
+    ports:
+      - "80:80"
+
