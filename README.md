@@ -9,7 +9,7 @@ Clone repo: `git clone https://github.com/willb0/py_vs_rust_primes.git`
 
 ### Docker-compose
 If you have docker-compose set up, you can clone the repo and simply type: 
-`docker-compose up`
+`docker-compose build && docker-compose up`
 You'll have FastAPI on 0.0.0.0:80 and warp(rust) on 0.0.0.0:3030
 
 The both have one endpoint: GET /primes/{n}, where n is an integer.
